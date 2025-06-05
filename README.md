@@ -57,7 +57,6 @@ e = torch.randint(-8,9,(70,1),dtype=torch.float)
 
 torch.manual_seed(59)
 model = Model(1, 1)
-# Name : Mohammed Saajid
 print('Weight:', model.linear.weight.item())
 print('Bias:  ', model.linear.bias.item())
 
